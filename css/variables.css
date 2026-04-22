@@ -1,0 +1,10 @@
+:root {
+    --bg-color: #504409;
+    --bg-secondary: #c6b68b;
+    --card-bg: #513611;
+    --accent-color: #d4a373;
+    --text-primary: #234e02;
+    --text-secondary: #a0a0a0;
+    --gap: 2rem;
+    --radius: 25px;
+}
