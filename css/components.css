@@ -1,0 +1,14 @@
+.header {
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.game-card {
+    background-color: var(--bg-secondary);
+    border-radius: var(--radius);
+    width: 500px;
+}
+.game-card img {
+    width: 500px;
+}

@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+}
+.header img {
+    padding-right: 30px;
+}
+.header h1 {
+    font-size: 50px;
+    padding-left: 30px;
+}
