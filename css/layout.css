@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: var(--bg-color);
 }
 .header img {
     padding-right: 30px;
