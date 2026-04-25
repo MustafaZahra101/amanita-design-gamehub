@@ -61,8 +61,6 @@
     border-radius: var(--radius);
     padding-left: 20px;
 }
-.search-bar::placeholder {
-}
 .search-bar:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
