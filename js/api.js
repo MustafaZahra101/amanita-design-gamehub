@@ -15,7 +15,7 @@ export const getAmanitaGames = async () => {
         "Samorost 3", 
     ];
     try {
-        const response = await fetch (`${BASE_URL}games?key=${API_KEY}&developers=amanita-design`);
+        const response = await fetch (`${BASE_URL}games?key=${API_KEY}&developers=amanita-design,team-cherry`);
 
         const data = await response.json();
 
