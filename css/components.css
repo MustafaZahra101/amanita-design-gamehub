@@ -47,3 +47,30 @@
 .card-content h3 {
     text-align: center;
 }
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.search-bar {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgba(250, 235, 215, 0.533);
+    border-radius: var(--radius);
+    padding-left: 20px;
+}
+.search-bar::placeholder {
+}
+.search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.search-button {
+    width: 50px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgba(250, 235, 215, 0.533);
+    border-radius: var(--radius);
+}
