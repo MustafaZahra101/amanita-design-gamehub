@@ -11,4 +11,15 @@ export const initSearch = (games) => {
         );
         displayGames(filteredGames);
     };
-}
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', handleSearch); 
+    }
+
+    if (searchButton) {
+        searchButton.addEventListener('click', (e) => {
+            e.preventDefault(); 
+            handleSearch();
+        });
+    }
+};
