@@ -13,6 +13,7 @@ export const getAmanitaGames = async () => {
         "Happy Game :)",
         "Botanicula",
         "Samorost 3", 
+        "Hollow Knight: Silksong & Soundtrack Bundle",
     ];
     try {
         const response = await fetch (`${BASE_URL}games?key=${API_KEY}&developers=amanita-design,team-cherry`);
