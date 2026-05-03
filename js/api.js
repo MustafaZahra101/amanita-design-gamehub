@@ -16,7 +16,7 @@ export const getAmanitaGames = async () => {
         "Hollow Knight: Silksong & Soundtrack Bundle",
     ];
     try {
-        const response = await fetch (`${BASE_URL}games?key=${API_KEY}&developers=amanita-design,team-cherry`);
+        const response = await fetch (`${BASE_URL}games?key=${API_KEY}&developers=amanita-design,team-cherry,playdead,klei-entertainment,concernedape,re-logic&page_size=50`);
 
         const data = await response.json();
 
